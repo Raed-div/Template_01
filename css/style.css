@@ -1,0 +1,307 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix {
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Start Navber */
+nav {
+    position: fixed;
+    color: #6d2929;
+    width: 100%;
+    z-index: 10;
+}
+
+nav .logo {
+    float: left;
+    width: 50%;
+}
+nav .logo h1 {
+    font-size: 30px;
+}
+nav .list {
+    float: right;
+    width: 48%;
+}
+nav .list ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+} 
+nav .list ul li {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+/* End Navber*/
+
+/* Start Header*/
+.header {
+    background:url(../images/neaty-01.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* End Header*/
+
+/*Start About*/
+.about {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.about .info {
+    float: left;
+    width: 60%;
+}
+.about .info h2 {
+    color: #F16821;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.about .info p {
+    color: #777;
+    font-size: 17px;
+    padding-right: 70px;
+    line-height: 1.7;
+}
+.about .info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+.about .info ul li {
+    margin-bottom: 20px;
+    color: #777;
+}
+.about .info ul li i {
+    color: aqua;
+    margin-right: 10px;
+}
+.about .image {
+    float: right;
+    width: 40%;
+}
+.about .image img {
+    width: 100%;
+    height: 470px;
+}
+/*End About*/
+
+/*Start Our-Team*/
+.our-team {
+margin-top: 100px;
+}
+.our-team .item {
+    float: left;
+    width: 33.3333%;
+}
+.our-team .item img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.our-team .item h4 {
+    color: #444;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.our-team .item span {
+    color: #aaa;
+    font-size: 14px;
+}
+.our-team .item p {
+    padding-right: 50px;
+    color: #444;
+}
+.our-team .item .list ul {
+    list-style: none;
+    padding: 0;
+}
+.our-team .item .list ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.our-team .item .list ul li i {
+    font-size: 27px;
+    color: #444;
+    cursor: pointer;
+}
+
+/*End Out-Team*/
+
+/*Start Our-Work*/
+.work {
+    margin-top: 50px;
+}
+.work .gallary img {
+    float: left;
+    width: 25%;
+    height: 395.75px;
+}
+.work .arrows {
+    text-align: center;
+    margin-top: 30px;
+}
+.work .arrows i {
+    margin-right: 15px;
+    font-size: 25px;
+    color: #1a1a1a;
+}
+/*End Our-Work*/
+
+/* Start Testimonials*/
+.testimonials {
+    margin-top: 50px;
+    text-align: center;
+}
+.testimonials .image{
+    margin-bottom: 20px;
+}
+.testimonials .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testimonials q {
+    color: #777;
+    line-height: 1.7;
+}
+.testimonials p {
+    color: #F16821;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+/* End Testimonials*/
+
+/* Start Our Blog*/
+.our-blogs {
+    margin-top: 100px;
+}
+.our-blogs .blog {
+    float: left;
+    width: 32%;
+}
+.our-blogs .blog:not(:last-of-type) {
+    margin-right: 2%;
+}
+.our-blogs .blog img {
+    width: 100%;
+    height: 250px;
+}
+.our-blogs .blog h3 {
+    color: #F16821;
+}
+.our-blogs .blog p:first-of-type {
+    color: #777;
+}
+.our-blogs .blog span {
+    color: #F16821;
+    text-transform: capitalize;
+}
+.our-blogs .blog p:last-of-type {
+    color: #444;
+    line-height: 1.7;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.our-blogs button {
+    background-color: #F16821;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+}
+/* End Our Blog*/
+
+/*Start Contact */
+.contact {
+    margin-top: 100px;
+}
+.contact .inputs input {
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.contact .inputs input[type=text]:first-of-type {
+    margin-right: 1%;
+}
+.contact .inputs input[type=text]:not(:last-of-type) {
+    width: 49.3%;
+    display: inline-block;
+}
+.contact .inputs input[type=text]:last-of-type,
+.contact .inputs input[type=email] {
+    width: 100%;
+}
+.contact .inputs textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+.contact button {
+    background-color: #F16821;
+    border: none;
+    padding: 13px 25px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+} 
+
+/*End Contact */
+
+/* Start Footer */
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+footer span {
+    color: #F16821;
+}
+/* End Footer */
+
+
+/* Strat My Frame Work*/
+.heading h2 {
+    text-align: center;
+    color: #F16821;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+/* End My Frame Work*/
+
+hr {
+    display: block;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+}
